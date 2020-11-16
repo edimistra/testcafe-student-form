@@ -1,0 +1,27 @@
+{
+  "name": "testcafe-student-form",
+  "version": "1.0.0",
+  "description": "Demonstration of Testcafe running an automated test on a Student Registration Form",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "testcafe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edimistra/testcafe-student-form.git"
+  },
+  "author": "Erick Dimistracopulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edimistra/testcafe-student-form/issues"
+  },
+  "homepage": "https://github.com/edimistra/testcafe-student-form#readme",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "faker": "^5.1.0",
+    "testcafe": "^1.9.4"
+  }
+}

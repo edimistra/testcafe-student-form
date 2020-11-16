@@ -1,0 +1,21 @@
+{
+    "browsers":[
+      "chrome:headless"
+    ],
+    "src":[
+      "./tests"
+    ],
+    "reporter":[
+      {
+        "name":"spec"
+      }
+    ],
+    "skipJsErrors": true,
+    "screenshots": {
+        "path": "./screenshots"
+    },
+    "selectorTimeout":10000,
+    "assertionTimeout":10000,
+    "pageLoadTimeout":10000,
+    "speed":1
+}
