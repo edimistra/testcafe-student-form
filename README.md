@@ -8,7 +8,7 @@ Demonstration of Testcafe running an automated test on a Student Registration Fo
 * add-student-test.js is located in the tests folder
 * student-form-page.js is located in the pages folder
 * Screenshots folder
-* .testcaferc.json is the config file for TestCafe. Tests will run in Chrome Headless. If you want to run the tests in other browsers check [Configuration File](https://devexpress.github.io/testcafe/documentation/reference/configuration-file.html#browsers)
+* .testcaferc.json is the config file for TestCafe. Tests will run in Chrome headless by default. If you want to run the tests in other browsers check [Configuration File](https://devexpress.github.io/testcafe/documentation/reference/configuration-file.html#browsers)
  
 # How to run the tests?
 > nvm use 11.5.0
